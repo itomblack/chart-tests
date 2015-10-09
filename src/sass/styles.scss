@@ -12,6 +12,7 @@
 //===============================================================================
 $paper:  white;
 $ink:    black;
+$lgrey: #D8D8D7;
 
 //===============================================================================
 // BASCIS
@@ -32,13 +33,41 @@ ul {
 
 html,
 body {
-  background-color: $paper;
+  background-color: $lgrey;
   color: $ink;
   font-family: sans-serif;
   line-height: 1.4;
+  width: 100%;
+  height: 100%;
 }
 
 //===============================================================================
 // STYLES
 //===============================================================================
+
+section {
+  background-color: white;
+  width: 90%;
+  height: calc(100% - 100px);
+  margin: 10px auto;
+  margin-bottom: 0px;
+  position: relative;
+}
+
+#xaxis text, #yaxis text {
+  font-size: 12px;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
